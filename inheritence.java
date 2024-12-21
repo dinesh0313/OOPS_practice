@@ -1,9 +1,11 @@
-import bank.bank;
+import java.util.*;
+import bank;
 
 public class inheritence {
 
     public static void main(String[] args) {
-        bank
+        bank.Account account1 = new bank.Account();
+        account1.name="customer1";
     }
 }
 
